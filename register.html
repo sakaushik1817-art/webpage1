@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>College Fest - Registration</title>
+    <style>
+        body { 
+            font-family: Arial;
+             text-align: center; 
+             background: #f2f5ff;
+             }
+        header { 
+            background: #392578; 
+            color: white; 
+            padding: 20px; 
+        }
+        nav { 
+            background: #211548; 
+            padding: 15px;
+         }
+        nav a { 
+            color: white; 
+            text-decoration: none; 
+            margin: 12px;
+         }
+        form {
+            background: white;
+            max-width: 400px;
+            margin: 30px auto;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 3px 8px #ccc;
+        }
+        input, select {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            box-sizing: border-box;
+        }
+        button {
+            background: #392578;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            cursor: pointer;
+        }
+        footer { 
+            background: #211548;
+            color: white;
+            padding: 15px;
+         }
+        
+    </style>
+</head>
+<body>
+    <header><h2>FESTIVAL REGISTRATION</h2></header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="rules.html">Rules</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <h1>Register Now!</h1>
+
+    <form>
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="text" name="college" placeholder="College Name" required>
+
+        <select name="event" required>
+            <option value="">Select Your Event</option>
+            <option>Technical</option>
+            <option>Cultural</option>
+            <option>Workshop</option>
+        </select>
+
+        <button type="submit">Submit Registration</button>
+    </form>
+
+    <footer><p>© 2026 College Fest</p></footer>
+</body>
+</html>
